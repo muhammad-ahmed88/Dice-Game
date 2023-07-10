@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./I0000cW_1p0cUGsA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  /* background-size: 100%; */
+
+}
+
+.header{
+    display: flex;
+
+}
+.logo{
+    width: 250px;
+}
+
+h1{
+    margin-left: 200px;
+    border: 1px solid black ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    /* background-color: gray; */
+
+}
+
+.dice-img{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+img{
+    border-radius: 10px;
+    height: 150px;
+    width: 120px;
+    /* box-shadow: 2px 2px 5px black; */
+}
+.headding{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.msg{
+    border: 1px solid black;
+    /* height: 30px;
+    width: 50%; */
+    color: #18e1a4;
+    text-align: center;
+
+}
+.ratio{
+    display: block;
+    margin: auto;
+}
+
+.buttons{
+    /* border: 1px solid black;  */
+    /* width: 30%;
+    margin: auto; */
+    /* background-color: gray; */
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    padding: 10px;
+    margin-top: 50px;
+}
+button{
+    margin-left: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: rgb(0, 0, 0, 0.2);
+    color: white;
+    box-shadow: 2px 2px 5px white;
+
+}
+button:hover{
+    border: 1px solid white;
+    background-color: rgb(184, 233, 248);
+    color: black;
+    
+}
+
+.count{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(8, 10, 134, 0.4);
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 52px;
+    box-shadow: 2px 2px 10px white;
+}
+.count:hover{
+    background-color: rgb(184, 233, 248);
+    color: black;
+    
+}
+
+.attamp{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(8, 10, 134,0.4);
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 52px;
+    box-shadow: 2px 2px 10px white;
+}
+
+.attamp:hover{
+    background-color: rgb(184, 233, 248);
+    color: black;
+    
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+@keyframes slide-numbers {
+    from{
+        margin-bottom: 0px;
+    }
+
+    to{
+        margin-top: 10px;
+        
+    }
+    
+}
+
